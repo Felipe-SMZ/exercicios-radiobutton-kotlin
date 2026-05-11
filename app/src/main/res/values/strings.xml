@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExerciciosRadioButton</string>
+
+    <string name="area_format">Área: %.2f unid²</string>
+
+    <string name="voltagem_format">Tensão: %.2f V</string>
+
+    <string name="corrente_format">Corrente: %.2f A</string>
+
+    <string name="resistencia_format">Resistência: %.2f Ω</string>
+</resources>

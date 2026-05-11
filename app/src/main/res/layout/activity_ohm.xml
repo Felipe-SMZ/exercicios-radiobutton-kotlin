@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/buttonVoltarMenuOhm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Voltar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lei de Ohm"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupOhm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcular Tensão (V)"/>
+
+            <RadioButton
+                android:id="@+id/radioI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcular Corrente (I)"/>
+
+            <RadioButton
+                android:id="@+id/radioR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcular Resistência (R)"/>
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tensão (V)"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/editI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Corrente (I)"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/editR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Resistência (R)"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/buttonCalcularOhm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/textResultadoOhm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
