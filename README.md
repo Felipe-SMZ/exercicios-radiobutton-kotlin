@@ -108,3 +108,11 @@ SplashActivity
 MenuActivity
    ↓         ↓
 Geometria    Ohm
+```
+---
+
+# Autor
+
+Desenvolvido por Felipe
+
+Estudante de DSM na FATEC
